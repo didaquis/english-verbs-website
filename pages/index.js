@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Jumbotron from '../components/Jumbotron'
 import GroupOfCards from '../components/GroupOfCards'
 
@@ -15,6 +16,7 @@ function Home() {
 					</div>
 					<GroupOfCards />
 				</main>
+				<Footer />
 			</div>
 		</React.StrictMode>
 	)
