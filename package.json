@@ -1,6 +1,6 @@
 {
-  "name": "english-verbs",
-  "version": "0.0.1",
+  "name": "english-verbs-website",
+  "version": "0.0.2",
   "description": "A website with examples of use of tenses in English",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "english",
-    "verbs"
+    "verbs",
+    "tenses"
   ],
   "author": "Dídac García (https://didaquis.github.io/)",
   "license": "ISC",

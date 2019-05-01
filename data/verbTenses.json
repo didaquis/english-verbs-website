@@ -1,8 +1,16 @@
 {
 	"data": [
-	  { "id": 1, "type": "present", "name": "Present Simple", "whenToUse": "when to use text", "rules": "rules text", "examples": ["example 01", "example 02"] },
-	  { "id": 2, "type": "present", "name": "Present Continuous", "whenToUse": "when to use text", "rules": "rules text", "examples": ["example 01", "example 02"] },
-	  { "id": 3, "type": "present", "name": "Present Perfect", "whenToUse": "when to use text", "rules": "rules text", "examples": ["example 01", "example 02"] },
-	  { "id": 4, "type": "present", "name": "Present Perfect Continuous", "whenToUse": "when to use text", "rules": "rules text", "examples": ["example 01", "example 02"] }
+	  { "id": 1, "type": "present", "name": "Present Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+	  { "id": 2, "type": "present", "name": "Present Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+	  { "id": 3, "type": "present", "name": "Present Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 4, "type": "present", "name": "Present Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 5, "type": "past", "name": "Past Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 6, "type": "past", "name": "Past Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 7, "type": "past", "name": "Past Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 8, "type": "past", "name": "Past Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 9, "type": "future", "name": "Future Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 10, "type": "future", "name": "Future Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 11, "type": "future", "name": "Future Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 12, "type": "future", "name": "Future Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] }
 	]
 }
