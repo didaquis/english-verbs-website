@@ -8,7 +8,7 @@ function CardSubsection(props) {
 				{
 					props.data.map( (data, index) => {
 						return (
-							<p key={index} className="card-text mb-0">{data}</p>
+							<p key={index} className="card-text mb-1">{data}</p>
 						)
 					})
 				}
