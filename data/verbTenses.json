@@ -1,16 +1,16 @@
 {
 	"data": [
-	  { "id": 1, "type": "present", "name": "Present Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-	  { "id": 2, "type": "present", "name": "Present Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-	  { "id": 3, "type": "present", "name": "Present Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 4, "type": "present", "name": "Present Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 5, "type": "past", "name": "Past Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 6, "type": "past", "name": "Past Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 7, "type": "past", "name": "Past Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 8, "type": "past", "name": "Past Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 9, "type": "future", "name": "Future Simple", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 10, "type": "future", "name": "Future Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 11, "type": "future", "name": "Future Perfect", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
-		{ "id": 12, "type": "future", "name": "Future Perfect Continuous", "whenToUse": ["bla bla bla"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] }
+	  { "id": 1, "type": "present", "name": "Present Simple", "whenToUse": ["Routine", "Facts"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+	  { "id": 2, "type": "present", "name": "Present Continuous", "whenToUse": ["Ongoing present action"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+	  { "id": 3, "type": "present", "name": "Present Perfect", "whenToUse": ["Not specific or unknown time"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 4, "type": "present", "name": "Present Perfect Continuous", "whenToUse": ["Emphasis on duration"], "rules": ["Have, has + been ...ing"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 5, "type": "past", "name": "Past Simple", "whenToUse": ["Finished action", "Specific time"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 6, "type": "past", "name": "Past Continuous", "whenToUse": ["Ongoing past action"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 7, "type": "past", "name": "Past Perfect", "whenToUse": ["Two finished actions"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 8, "type": "past", "name": "Past Perfect Continuous", "whenToUse": [""], "rules": ["Had + been ...ing"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 9, "type": "future", "name": "Future Simple", "whenToUse": ["Plans", "Predictions"], "rules": ["Will", "be going to + verb"], "examples": ["I will help you down the stairs in a few minutes", "She is going to go down the stairs tomorrow"] },
+		{ "id": 10, "type": "future", "name": "Future Continuous", "whenToUse": ["Ongoing future action"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 11, "type": "future", "name": "Future Perfect", "whenToUse": ["Two future actions"], "rules": ["bla bla bla"], "examples": ["bla bla bla", "bla bla bla"] },
+		{ "id": 12, "type": "future", "name": "Future Perfect Continuous", "whenToUse": [""], "rules": ["Will have been ...ing"], "examples": ["bla bla bla", "bla bla bla"] }
 	]
 }
