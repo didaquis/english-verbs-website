@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Jumbotron from '../components/Jumbotron'
 import GroupOfCards from '../components/GroupOfCards'
 
-function Index() {
+const Index = () => {
 	return (
 		<Layout>
 			<div className="row">
@@ -10,7 +10,9 @@ function Index() {
 					<Jumbotron title={'📚'} subtitle={'A website with examples of use of tenses in English'} />
 				</div>
 			</div>
-			<GroupOfCards />
+			<div className="row">
+				<GroupOfCards />
+			</div>
 		</Layout>
 	)
 }

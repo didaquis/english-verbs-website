@@ -1,5 +1,4 @@
-function CardSubsection(props) {
-
+const CardSubsection = (props) => {
 	return (
 		<React.Fragment>
 			<h6 className="card-subtitle mt-2 mb-1 font-weight-bold">{props.title}</h6>

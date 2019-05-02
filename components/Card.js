@@ -1,6 +1,6 @@
 import CardSubsection from './CardSubsection'
 
-function Card(props) {
+const Card = (props) => {
 	return (
 		<div className="col-md-6 col-xl-3 mb-3">
 			<div className={`card ${props.backgroundColor}`}>
@@ -11,7 +11,7 @@ function Card(props) {
 					<CardSubsection title={'When To Use'} data={props.whenToUse}/>
 					<CardSubsection title={'Rules'} data={props.rules}/>
 					<CardSubsection title={'Examples'} data={props.examples}/>
-					<button type="button" className="btn btn-md btn-block btn-outline-dark">More examples</button>
+					<button onClick={(e) => { e.preventDefault(); props.handlerOnClickButtonForOpenModal(props.id); }} type="button" className="btn btn-md btn-block btn-outline-dark" data-toggle="modal" data-target="#BigModalWithScroll">More examples</button>
 				</div>
 			</div>
 		</div>
