@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Jumbotron from '../components/Jumbotron'
 import GroupOfCards from '../components/GroupOfCards'
 
-function Home() {
+function Index() {
 	return (
 		<React.StrictMode>
 			<div className="bg-dark h-100 min-vh-100 d-flex flex-column">
@@ -22,4 +22,4 @@ function Home() {
 	)
 }
 
-export default Home
+export default Index
