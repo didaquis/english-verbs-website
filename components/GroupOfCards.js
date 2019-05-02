@@ -2,38 +2,32 @@ import Card from './Card'
 import Modal from '../components/Modal'
 
 import verbTenses from '../data/verbTenses.json'
+import { backgroundColorByTypeOfTense } from '../utils/utils'
 
 class GroupOfCards extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			dataForModal: null
+			tenses: verbTenses.data,
+			dataForModal: {}
 		};
 	}
 
 	handlerOnClickButtonForOpenModal = (id) => {
-		this.setState({ dataForModal: id });
+		this.state.tenses.map((tense) => {
+			if(tense.id === id) {
+				this.setState({ dataForModal: tense });
+			}
+		})
 	}
 
 	render() {
 		return (
 			<React.Fragment>
-				<Modal data={this.state.dataForModal}/>
+				<Modal dataForModal={this.state.dataForModal}/>
 				{
-					verbTenses.data.map(tense => {
-						let backgroundColor = 'bg-primary'
-
-						switch (tense.type) {
-							case 'past':
-								backgroundColor = 'bg-warning'
-								break;
-							case 'present':
-								backgroundColor = 'bg-info'
-								break;
-							case 'future':
-								backgroundColor = 'bg-danger'
-								break;
-						}
+					this.state.tenses.map(tense => {
+						const backgroundColor = backgroundColorByTypeOfTense(tense.type)
 
 						return (
 							<Card

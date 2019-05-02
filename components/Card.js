@@ -11,7 +11,7 @@ const Card = (props) => {
 					<CardSubsection title={'When To Use'} data={props.whenToUse}/>
 					<CardSubsection title={'Rules'} data={props.rules}/>
 					<CardSubsection title={'Examples'} data={props.examples}/>
-					<button onClick={(e) => { e.preventDefault(); props.handlerOnClickButtonForOpenModal(props.id); }} type="button" className="btn btn-md btn-block btn-outline-dark" data-toggle="modal" data-target="#BigModalWithScroll">More examples</button>
+					<button onClick={(e) => { e.preventDefault(); props.handlerOnClickButtonForOpenModal(props.id); }} type="button" className="btn btn-md btn-block btn-outline-dark" data-toggle="modal" data-target="#BigModalWithScroll">More information</button>
 				</div>
 			</div>
 		</div>
