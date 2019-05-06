@@ -185,3 +185,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,macos,windows,sublimetext,visualstudiocode
+
+# Next.js
+out/*
