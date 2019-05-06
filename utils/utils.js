@@ -5,13 +5,13 @@ const backgroundColorByTypeOfTense = (tenseType) => {
 	switch (tenseType) {
 		case 'past':
 			backgroundColor = 'bg-warning'
-			break;
+			break
 		case 'present':
 			backgroundColor = 'bg-info'
-			break;
+			break
 		case 'future':
 			backgroundColor = 'bg-danger'
-			break;
+			break
 	}
 
 	return backgroundColor

@@ -5,23 +5,23 @@ import verbTenses from '../data/verbTenses.json'
 import { backgroundColorByTypeOfTense } from '../utils/utils'
 
 class GroupOfCards extends React.Component {
-	constructor() {
-		super();
+	constructor () {
+		super()
 		this.state = {
 			tenses: verbTenses.data,
 			dataForModal: {}
-		};
+		}
 	}
 
 	handlerOnClickButtonForOpenModal = (id) => {
 		this.state.tenses.map((tense) => {
-			if(tense.id === id) {
-				this.setState({ dataForModal: tense });
+			if (tense.id === id) {
+				this.setState({ dataForModal: tense })
 			}
 		})
 	}
 
-	render() {
+	render () {
 		return (
 			<React.Fragment>
 				<Modal dataForModal={this.state.dataForModal}/>

@@ -6,7 +6,7 @@ import { backgroundColorByTypeOfTense } from '../utils/utils'
 const Modal = (props) => {
 	const backgroundColor = backgroundColorByTypeOfTense(props.dataForModal.type)
 
-  	return (
+	return (
 		<div className="modal fade" id="BigModalWithScroll" tabIndex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 			<div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 				<div className="modal-content">
@@ -22,14 +22,14 @@ const Modal = (props) => {
 						<ModalSubsection title={'Examples'} data={props.dataForModal.examples || []}/>
 					</div>
 					<div className="modal-footer">
-							<div className="col-md-6 col-xl-4 mx-auto">
-								<button type="button" className="btn btn-md btn-block btn-secondary" data-dismiss="modal">Close</button>
-							</div>
+						<div className="col-md-6 col-xl-4 mx-auto">
+							<button type="button" className="btn btn-md btn-block btn-secondary" data-dismiss="modal">Close</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-  	)
+	)
 }
 
 export default Modal
