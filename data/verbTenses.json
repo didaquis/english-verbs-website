@@ -5,13 +5,13 @@
 			"type": "present",
 			"name": "Present Simple",
 			"whenToUse": [
-				"Routine",
-				"Facts"
+				"Repeated actions or routine",
+				"Facts or instructions"
 			],
 			"rules": [
 				"In the third person singular, the verb always ends in '-s'",
 				"For negative and interrogative forms, use 'does/do'",
-				"Add '-es' if ver finish with: -ss, -x, -sh, -ch"
+				"Add '-es' if verb finish with: -ss, -x, -sh, -ch"
 			],
 			"examples": [
 				"I work in London",
@@ -25,7 +25,8 @@
 				"He goes to school every morning",
 				"She enjoys playing the piano",
 				"We do not think about that",
-				"He drinks a lot on parties"
+				"He drinks a lot on parties",
+				"Open your books at page 34"
 			]
 		},
 	  	{ 
@@ -33,20 +34,20 @@
 			"type": "present",
 			"name": "Present Continuous",
 			"whenToUse": [
-				"Action not finished or incompleted"
+				"Action not finished or incompleted",
+				"Actions happening at the moment of speaking"
 			],
 			"rules": [
-				"...ing"
+				"verb to be (am/are/is) + infinitive + -ing"
 			],
 			"examples": [
 				"We are going to the beach",
-				"Are you going to the office?",
-				"You are using the Internet",
 				"More and more people are becoming vegetarian",
-				"I am not going to my home",
 				"Are you still working for the same company?",
-				"We're going on holiday tomorrow",
-				"He usually plays the drums"
+				"I am not going to my home",
+				"Are you going to the office?",
+				"He usually plays the drums",
+				"He is not playing football"
 			]
 		},
 	  	{ 
@@ -54,10 +55,12 @@
 			"type": "present",
 			"name": "Present Perfect",
 			"whenToUse": [
-				"Not specific or unknown time"
+				"When the precise time of action is not important or not know",
+				"An action or situation that started in the past and continues in the present"
 			],
 			"rules": [
-				"bla bla bla"
+				"Have/has + irregular verb: third column of irregular verbs",
+				"Have/has + regular verb: infinitive + ed"
 			],
 			"examples": [
 				"I have never fallen down the stairs",
@@ -68,7 +71,12 @@
 				"It has happened several times already",
 				"Someone has eaten my soup!",
 				"I've worked here for six months",
-				"I haven't gone to the cinema for a long time"
+				"I haven't gone to the cinema for a long time",
+				"I have just finished my work",
+				"He has read that book",
+				"I have just eaten",
+				"Has he just left?",
+				"I have been to London recently"
 			]
 		},
 		{ 
@@ -79,14 +87,17 @@
 				"Emphasis on duration"
 			],
 			"rules": [
-				"Have/has + been ...ing"
+				"Have/has + been + infinitive + -ing"
 			],
 			"examples": [
 				"Has she been running?",
 				"Someone's been eating my chips",
 				"I've heard a lot about you recently",
 				"They have been travelling since last October",
-				"She has been cooking since last night"
+				"She has been cooking since last night",
+				"I have been waiting for you for three hours",
+				"He has not been playing handball",
+				"Have you been playing football?"
 			]
 		},
 		{ 
