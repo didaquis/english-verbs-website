@@ -38,7 +38,7 @@
 				"Actions happening at the moment of speaking"
 			],
 			"rules": [
-				"verb to be (am/are/is) + infinitive + -ing"
+				"Verb to be (am/are/is) + infinitive + -ing"
 			],
 			"examples": [
 				"We are going to the beach",
@@ -106,7 +106,7 @@
 			"name": "Past Simple",
 			"whenToUse": [
 				"Actions finished in the past",
-				"Actions finished at specific time",
+				"Actions finished at specific time"
 			],
 			"rules": [
 				"Regular verb: infinitive + -ed",
@@ -183,9 +183,9 @@
 			],
 			"examples": [
 				"We had been waiting for ages before the bus finally arrived",
-				"Betty failed the final test because she had not been attending class"
+				"Betty failed the final test because she had not been attending class",
 				"She looked tired because she had been exercicing",
-				"I had been waiting for Susan for 2 hours when she arrived"
+				"I had been waiting for Susan for 2 hours when she arrived",
 				"How long had you been waiting to get on the bus?",
 				"James had been teaching at the university for more than a year before he left for Asia",
 				"How long had you been studying Turkish before you moved to Ankara?",
@@ -198,18 +198,27 @@
 			"name": "Future Simple",
 			"whenToUse": [
 				"Plans",
-				"Predictions"
+				"Predictions",
+				"Request that someone help us",
+				"To express a promise"
 			],
 			"rules": [
-				"Will",
-				"be going to + verb"
+				"Will + verb",
+				"Be going to + verb"
 			],
 			"examples": [
 				"I will help you in a few minutes",
 				"She is going to the beach tomorrow",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"Are you going to meet Jane tonight?",
+				"Will you help me later?",
+				"I will send you the information when I get it",
+				"Will you help me move this heavy table?",
+				"I won't do all the housework myself!",
+				"He will not does your homework for you",
+				"I will call you when I arrive",
+				"Don't worry, I'll be careful",
+				"I won't tell anyone your secret",
+				"He will surely fall down the stairs next time"
 			]
 		},
 		{ 
@@ -217,17 +226,21 @@
 			"type": "future",
 			"name": "Future Continuous",
 			"whenToUse": [
-				"Ongoing future action"
+				"Ongoing future action",
+				"Parallel actions in the future"
 			],
 			"rules": [
-				"bla bla bla"
+				"Will be/be going to be + verb + -ing"
 			],
 			"examples": [
-				"bla bla bla",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"I will be waiting for her when her plane arrives tonight",
+				"Will you be waiting for her when her plane arrives tonight?",
+				"He will be studying at the library tonight",
+				"Are you going to be waiting for her when her plane arrives tonight?",
+				"At midnight tonight, we will still be driving through the desert",
+				"Tonight at 8 PM, I am going to be eating dinner",
+				"Tonight, they will be eating dinner, discussing their plans, and having a good time",
+				"At 8:00 PM tonight, the dishes are going to be being washed by John"
 			]
 		},
 		{ 
@@ -238,14 +251,20 @@
 				"Two future actions"
 			],
 			"rules": [
-				"bla bla bla"
+				"Will/to be (am/are/is) going to + have + irregular verb: third column of irregular verbs",
+				"Will/to be (am/are/is) going to + have + regular verb: infinitive + ed"
 			],
 			"examples": [
-				"bla bla bla",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"She will have gone by the time he arrives",
+				"I will have written the letter by tomorrow",
+				"Will she have learned enough Chinese to communicate before she moves to Beijing?",
+				"By next November, I will have received my promotion",
+				"I am not going to have finished this test by 3 o'clock",
+				"By the time I finish this course, I will have taken ten tests",
+				"I will have been in London for six months by the time I leave",
+				"By Monday, Susan is going to have had my book for a month",
+				"They will have completed the project before the deadline",
+				"They are going to have completed the project before the deadline"
 			]
 		},
 		{ 
@@ -253,17 +272,20 @@
 			"type": "future",
 			"name": "Future Perfect Continuous",
 			"whenToUse": [
-				""
+				"To show that something will continue up until a particular event or time in the future"
 			],
 			"rules": [
-				"Will have been ...ing"
+				"Will/to be (am/are/is) going to have been + infinitive + -ing"
 			],
 			"examples": [
-				"bla bla bla",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"I will have been swimming for an hour by 6:30",
+				"You will not have been waiting for more than two hours when her plane finally arrives",
+				"Are you going to have been waiting for more than two hours when her plane finally arrives?",
+				"She is going to have been working at that company for three years when it finally closes",
+				"How long will you have been studying when you graduate?",
+				"You won't get a promotion until you have been working here as long as Tim",
+				"The artist will have been painting the mural for over six months by the time it is finished",
+				"The song is going to have been being played by the musician for over seven minutes by the time it is finished"
 			]
 		}
 	]
