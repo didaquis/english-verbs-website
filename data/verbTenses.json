@@ -105,18 +105,23 @@
 			"type": "past",
 			"name": "Past Simple",
 			"whenToUse": [
-				"Finished action",
-				"Specific time"
+				"Actions finished in the past",
+				"Actions finished at specific time",
 			],
 			"rules": [
-				"bla bla bla"
+				"Regular verb: infinitive + -ed",
+				"Irregular verb: Second column of irregular verbs",
+				"Use did + infinitive verb in negative or question forms"
 			],
 			"examples": [
 				"I went to school",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"He cleaned his room",
+				"She didn't clean the room",
+				"Did you play football?",
+				"The keys weren’t in the drawer",
+				"We didn’t believe him",
+				"I worked for many years in a museum",
+				"Did Jack win the gold medal?"
 			]
 		},
 		{ 
@@ -127,14 +132,16 @@
 				"Ongoing past action"
 			],
 			"rules": [
-				"bla bla bla"
+				"verb to be (was, were) + infinitive + -ing"
 			],
 			"examples": [
 				"I was playing with my best friend",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"You were not driving the car",
+				"Was he writting the letter?",
+				"He was playing the guitar",
+				"Anne was writing a letter while Steve was reading the New York Times",
+				"He was going to the mountain when he fell",
+				"He was tired because he was exercising so hard"
 			]
 		},
 		{ 
@@ -145,14 +152,22 @@
 				"Two finished actions"
 			],
 			"rules": [
-				"bla bla bla"
+				"Had + irregular verb: third column of irregular verbs",
+				"Had + regular verb: infinitive + ed"
 			],
 			"examples": [
-				"bla bla bla",
-				"bla bla bla",
-				"foo foo foo",
-				"bar bar bar",
-				"biz biz biz"
+				"Maria had known about it for a while",
+				"I had already gone to my home when she arrived",
+				"I had not eaten at that restaurant before today",
+				"Had Adam ever spoken to the CEO before he was fired?",
+				"My friends had never gone to the USA",
+				"Why had he agreed to work for that salary?",
+				"Anthony had met Ryan before you introduced him to us at the party",
+				"He had never played football until last week",
+				"I had fallen asleep before eight o'clock",
+				"The teacher asked if we had studied for the exam",
+				"I had just gone outside when it started to rain",
+				"I had been to Mexico once before"
 			]
 		},
 		{ 
@@ -160,17 +175,21 @@
 			"type": "past",
 			"name": "Past Perfect Continuous",
 			"whenToUse": [
-				""
+				"Action had been happening before something else happened",
+				"Emphasizes a duration of time before something in the past"
 			],
 			"rules": [
-				"Had + been ...ing"
+				"Had + been + infinitive + -ing"
 			],
 			"examples": [
-				"bla bla bla",
-				"bla bla bla",
-				"foo foo foo",
 				"We had been waiting for ages before the bus finally arrived",
-				"biz biz biz"
+				"Betty failed the final test because she had not been attending class"
+				"She looked tired because she had been exercicing",
+				"I had been waiting for Susan for 2 hours when she arrived"
+				"How long had you been waiting to get on the bus?",
+				"James had been teaching at the university for more than a year before he left for Asia",
+				"How long had you been studying Turkish before you moved to Ankara?",
+				"You had only been waiting there for a few minutes when he arrived"
 			]
 		},
 		{ 
