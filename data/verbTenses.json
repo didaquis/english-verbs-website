@@ -4,97 +4,237 @@
 			"id": 1,
 			"type": "present",
 			"name": "Present Simple",
-			"whenToUse": ["Routine", "Facts"],
-			"rules": ["In the third person singular, the verb always ends in '-s'", "For negative and interrogative forms, use 'does/do'", "Add '-es' if ver finish with: -ss, -x, -sh, -ch"],
-			"examples": ["I work in London", "Your exam starts at 09.00", "We catch the bus every morning", "You walk for two hundred meters, then you turn left", "New York is a large city", "Water freezes at zero degrees", "His mother arrives tomorrow", "He goes to school every morning", "She enjoys playing the piano", "We do not think about that", "She does not run so fast", "He drinks a lot on parties"]
+			"whenToUse": [
+				"Routine",
+				"Facts"
+			],
+			"rules": [
+				"In the third person singular, the verb always ends in '-s'",
+				"For negative and interrogative forms, use 'does/do'",
+				"Add '-es' if ver finish with: -ss, -x, -sh, -ch"
+			],
+			"examples": [
+				"I work in London",
+				"Your exam starts at 09:00",
+				"She does not run so fast",
+				"We catch the bus every morning",
+				"You walk for two hundred meters, then you turn left",
+				"New York is a large city",
+				"Water freezes at zero degrees",
+				"His mother arrives tomorrow",
+				"He goes to school every morning",
+				"She enjoys playing the piano",
+				"We do not think about that",
+				"He drinks a lot on parties"
+			]
 		},
 	  	{ 
 			"id": 2,
 			"type": "present",
 			"name": "Present Continuous",
-			"whenToUse": ["Action not finished or incompleted"],
-			"rules": ["...ing"],
-			"examples": ["We are going to the beach", "Are you going to the office?", "You are using the Internet", "More and more people are becoming vegetarian", "I am not going to work", "Are you still working for the same company?", "We're going on holiday tomorrow", "He usually plays the drums"]
+			"whenToUse": [
+				"Action not finished or incompleted"
+			],
+			"rules": [
+				"...ing"
+			],
+			"examples": [
+				"We are going to the beach",
+				"Are you going to the office?",
+				"You are using the Internet",
+				"More and more people are becoming vegetarian",
+				"I am not going to my home",
+				"Are you still working for the same company?",
+				"We're going on holiday tomorrow",
+				"He usually plays the drums"
+			]
 		},
 	  	{ 
 			"id": 3,
 			"type": "present",
 			"name": "Present Perfect",
-			"whenToUse": ["Not specific or unknown time"],
-			"rules": ["bla bla bla"],
-			"examples": ["I have never fallen down the stairs", "I have lived in Barcelona since 1982", "Have you played the piano since you were a child?", "We have visited Portugal several times", "We have had the same car for ten years", "It has happened several times already", "Someone has eaten my soup!"]
+			"whenToUse": [
+				"Not specific or unknown time"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"I have never fallen down the stairs",
+				"I have lived in Barcelona since 1982",
+				"Have you played the piano since you were a child?",
+				"We have visited Portugal several times",
+				"We have had the same car for ten years",
+				"It has happened several times already",
+				"Someone has eaten my soup!",
+				"I've worked here for six months",
+				"I haven't gone to the cinema for a long time"
+			]
 		},
 		{ 
 			"id": 4,
 			"type": "present",
 			"name": "Present Perfect Continuous",
-			"whenToUse": ["Emphasis on duration"],
-			"rules": ["Have/has + been ...ing"],
-			"examples": ["Has she been running?", "Someone's been eating my chips", "I've heard a lot about you recently", "They have been travelling since last October", "She has been cooking since last night"]
+			"whenToUse": [
+				"Emphasis on duration"
+			],
+			"rules": [
+				"Have/has + been ...ing"
+			],
+			"examples": [
+				"Has she been running?",
+				"Someone's been eating my chips",
+				"I've heard a lot about you recently",
+				"They have been travelling since last October",
+				"She has been cooking since last night"
+			]
 		},
 		{ 
 			"id": 5,
 			"type": "past",
 			"name": "Past Simple",
-			"whenToUse": ["Finished action", "Specific time"],
-			"rules": ["bla bla bla"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Finished action",
+				"Specific time"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"I went to school",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 6,
 			"type": "past",
 			"name": "Past Continuous",
-			"whenToUse": ["Ongoing past action"],
-			"rules": ["bla bla bla"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Ongoing past action"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"I was playing with my best friend",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 7,
 			"type": "past",
 			"name": "Past Perfect",
-			"whenToUse": ["Two finished actions"],
-			"rules": ["bla bla bla"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Two finished actions"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"bla bla bla",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 8,
 			"type": "past",
 			"name": "Past Perfect Continuous",
-			"whenToUse": [""],
-			"rules": ["Had + been ...ing"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				""
+			],
+			"rules": [
+				"Had + been ...ing"
+			],
+			"examples": [
+				"bla bla bla",
+				"bla bla bla",
+				"foo foo foo",
+				"We had been waiting for ages before the bus finally arrived",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 9,
 			"type": "future",
 			"name": "Future Simple",
-			"whenToUse": ["Plans", "Predictions"],
-			"rules": ["Will", "be going to + verb"],
-			"examples": ["I will help you down the stairs in a few minutes", "She is going to go down the stairs tomorrow", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Plans",
+				"Predictions"
+			],
+			"rules": [
+				"Will",
+				"be going to + verb"
+			],
+			"examples": [
+				"I will help you in a few minutes",
+				"She is going to the beach tomorrow",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 10,
 			"type": "future",
 			"name": "Future Continuous",
-			"whenToUse": ["Ongoing future action"],
-			"rules": ["bla bla bla"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Ongoing future action"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"bla bla bla",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 11,
 			"type": "future",
 			"name": "Future Perfect",
-			"whenToUse": ["Two future actions"],
-			"rules": ["bla bla bla"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				"Two future actions"
+			],
+			"rules": [
+				"bla bla bla"
+			],
+			"examples": [
+				"bla bla bla",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		},
 		{ 
 			"id": 12,
 			"type": "future",
 			"name": "Future Perfect Continuous",
-			"whenToUse": [""],
-			"rules": ["Will have been ...ing"],
-			"examples": ["bla bla bla", "bla bla bla", "foo foo foo", "bar bar bar", "biz biz biz"]
+			"whenToUse": [
+				""
+			],
+			"rules": [
+				"Will have been ...ing"
+			],
+			"examples": [
+				"bla bla bla",
+				"bla bla bla",
+				"foo foo foo",
+				"bar bar bar",
+				"biz biz biz"
+			]
 		}
 	]
 }
