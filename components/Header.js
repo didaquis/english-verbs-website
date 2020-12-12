@@ -4,6 +4,7 @@ const Header = () => {
 	return (
 		<Head>
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+			<meta name="description" content="A website with examples of use of tenses in English" />
 			<title>English Verbs</title>
 
 			<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
