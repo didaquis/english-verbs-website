@@ -1,0 +1,33 @@
+# This workflow is an example of how to build a static website from Next.js and do an automated deployment on Surge.sh
+
+name: Node.js CI - Deploy to Surge.sh
+
+on:
+  push:
+    branches: [ master, main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2-beta
+      with:
+        node-version: '14'
+
+    # Install npm packages
+    - name: Install packages
+      run: npm install
+
+    # Build Next.js app
+    - name: Build the app
+      run: npm run automated-publish-to-surge
+
+    # Install Surge 
+    - name: Install Surge
+      run: npm install -g surge
+
+    # Deploy to the defined URL using the token
+    - name: Deploy to surge
+      run: surge ./out ${{secrets.URL_TO_DEPLOY}} --token ${{secrets.TOKEN}}

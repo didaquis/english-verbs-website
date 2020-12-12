@@ -9,7 +9,8 @@
     "start": "next start",
     "export": "next build && next export",
     "lint": "eslint --ext .jsx,.js .",
-    "publish-to-surge": "npm run export && cp out/index.html out/200.html && surge out"
+    "publish-to-surge": "npm run export && cp out/index.html out/200.html && surge out",
+    "automated-publish-to-surge": "npm run export && cp out/index.html out/200.html"
   },
   "keywords": [
     "english",
